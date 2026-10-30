@@ -11,7 +11,7 @@ export function createApp() {
 
     try {
       if (req.method === 'GET' && url.pathname === '/') {
-        return send(res, 200, { message: 'Hello from Node.js!!!' });
+        return send(res, 200, { message: 'Hello from Node.js!!!!!' });
       }
 
       if (req.method === 'GET' && url.pathname === '/health') {
